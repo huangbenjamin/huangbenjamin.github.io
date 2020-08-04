@@ -30,8 +30,11 @@ body {
 .navitems {
   display: inline;
   padding: 1%;
-  right: 20px;
   box-sizing: border-box;
+}
+
+.headeritems{
+  padding: 7px;
 }
 
 .navlinks {
@@ -49,13 +52,9 @@ body {
   color: rgb(236, 208, 255);
 }
 
-.headeritems {
-  display: inline;
-}
-
 #name {
-  left: 20px;
-  position: absolute;
+  font-weight: bold;
+  font-size: 24px;
   color: white;
 }
 
