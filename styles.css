@@ -9,10 +9,6 @@ body {
   background: #bbbbbb;
 }
 
-#nav {
-  overflow: hidden;
-}
-
 .navbar {
   background-color: #333333;
   justify-content: center;
@@ -77,20 +73,4 @@ body {
 #catalog {
   margin-left: 20px;
   line-height: 150%;
-}
-
-/* below: how to make the navbar stay at the top */
-
-.content {
-  padding: 0px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
 }

@@ -1,2 +1,3 @@
 # huangbenjamin.github.io
-Ben Huang's website!
+
+I'm still really new to this! Let me know if there are any issues.

@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <div id="nav">
+    <nav>
       <ul class="navbar">
         <div class="headeritems" id="name">
           Ben Huang's Website
@@ -34,7 +34,7 @@
         </ul>
       </ul>
       <div class="colorbar"></div>
-    </div>
+    </nav>
     <div class="main">
       <h2>
         Projects
@@ -83,20 +83,5 @@
         &copy; 2020 Benjamin Huang. All rights reserved.
       </p>
     </div>
-    <script>
-      window.onscroll = function () {
-        myFunction();
-      };
-      var nav = document.getElementById("nav");
-      var sticky = nav.offsetTop;
-      position;
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          nav.classList.add("sticky");
-        } else {
-          nav.classList.remove("sticky");
-        }
-      }
-    </script>
   </body>
 </html>
