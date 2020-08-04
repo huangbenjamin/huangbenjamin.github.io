@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/bh.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div id="nav">
+      <ul class="navbar">
+        <div class="headeritems" id="name">
+          Ben Huang
+        </div>
+        <ul class="headeritems">
+          <li class="navitems">
+            <a class="navlinks" href="./index.html">Home</a>
+          </li>
+          <li class="navitems">
+            <a class="navlinks" href="./about.html">About Me</a>
+          </li>
+          <li class="navitems" id="activepage">
+            Projects
+          </li>
+          <li class="navitems">
+            <a class="navlinks" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </ul>
+      <div class="colorbar"></div>
+    </div>
+    <div class="main">
+      <h2>
+        Projects
+      </h2>
+      <br />
+      <h3>
+        Personal Website
+      </h3>
+      <p>
+        You are here! This website is a way for me to get more experience with
+        HTML and CSS, as well as to put myself out there. It's not much, but I
+        hope it'll do. I'll add more stuff here when I actually have stuff to
+        put here. Feel free to browse around!
+      </p>
+      <br />
+      <h3>
+        Music Production
+      </h3>
+      <p>
+        I upload contemporary Christian and electronic music to Spotify under
+        the alias Quake. You can check out my music
+        <a
+          class="navlinks"
+          target="_new"
+          href="https://open.spotify.com/artist/55qm7kb8OAj4XE06xMNhxT"
+          >here</a
+        >! I've been producing music using FL Studio for around 4 years now, but
+        only started uploading to Spotify relatively recently. Feel free to have
+        a listen, hope you enjoy!
+      </p>
+      <br />
+      <h3>
+        Warrior Basics
+      </h3>
+      <p>
+        Something exciting I've been working on with a small team of other
+        engineering students at the University of Waterloo is a website designed
+        to help those interested in applying for UW engineering or incoming UW
+        engineering students; a collection of resources and information pooled
+        from many other sources and put together in one place for their
+        convenience. Right now, it's still in its early stages of development,
+        so stay tuned!
+      </p>
+      <br />
+      <p>
+        &copy; 2020 Benjamin Huang. All rights reserved.
+      </p>
+    </div>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+      var nav = document.getElementById("nav");
+      var sticky = nav.offsetTop;
+      position;
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>

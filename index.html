@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ben's Website!</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/bh.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="nav">
+      <ul class="navbar">
+        <div class="headeritems" id="name">
+          Ben Huang
+        </div>
+        <ul class="headeritems">
+          <li class="navitems" id="activepage">Home</li>
+          <li class="navitems">
+            <a class="navlinks" href="./about.html">About Me</a>
+          </li>
+          <li class="navitems">
+            <a class="navlinks" href="./projects.html">Projects</a>
+          </li>
+          <li class="navitems">
+            <a class="navlinks" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </ul>
+      <div class="colorbar"></div>
+    </div>
+    <div class="main">
+      <h2>
+        Home
+      </h2>
+      <br />
+      <p>
+        Welcome, and thanks for visiting my website! Here, you'll find stuff
+        about what I do, who I am, and more. Click on any of the links above to
+        get started, or see below to get a description of them.
+      </p>
+      <br />
+      <ul id="catalog">
+        <li>
+          <a class="navlinks" href="./about.html">About Me</a> - Info about who
+          I am and a brief summary of what I do.
+        </li>
+        <li>
+          <a class="navlinks" href="./projects.html">Projects</a> - Stuff I'm
+          working on.
+        </li>
+        <li>
+          <a class="navlinks" href="./contact.html">Contact</a> - Get in touch
+          with me!
+        </li>
+      </ul>
+      <br />
+      <p>
+        I'm still <span style="font-style: italic;">really</span> new to this,
+        so don't worry if something about the site isn't exactly perfect; I'm
+        still learning! I hope you'll forgive me for this.
+      </p>
+      <br />
+      <p>
+        Again, thanks for stopping by! Hope you enjoy your stay.
+      </p>
+      <br />
+      <p>
+        - Benjamin Huang
+      </p>
+      <p>
+        Joshua 1:9
+      </p>
+      <br />
+      <p>
+        &copy; 2020 Benjamin Huang. All rights reserved.
+      </p>
+    </div>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+      var nav = document.getElementById("nav");
+      var sticky = nav.offsetTop;
+      position;
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>

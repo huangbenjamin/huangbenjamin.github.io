@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me!</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/bh.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div id="nav">
+      <ul class="navbar">
+        <div class="headeritems" id="name">
+          Ben Huang
+        </div>
+        <ul class="headeritems">
+          <li class="navitems">
+            <a class="navlinks" href="./index.html">Home</a>
+          </li>
+          <li class="navitems" id="activepage">About Me</li>
+          <li class="navitems">
+            <a class="navlinks" href="./projects.html">Projects</a>
+          </li>
+          <li class="navitems">
+            <a class="navlinks" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </ul>
+      <div class="colorbar"></div>
+    </div>
+    <div class="main">
+      <h2>
+        About Me!
+      </h2>
+      <br />
+      <p>
+        I'm Benjamin Huang, a chemical engineering student at the University of
+        Waterloo. I seek to glorify God in everything I do. I enjoy good food,
+        bubble tea (yeah, I'm one of
+        <span style="font-style: italic;">those</span> people), music production
+        (or casually jamming out on my guitar), and generally just messing
+        around and learning new stuff, like how to make websites like this one!
+      </p>
+      <br />
+      <p>
+        Along with HTML/CSS, I'm trying to learn Python and Excel on my own,
+        given the COVID-19 pandemic right now. Obviously, I have a lot to learn,
+        but I'm getting there!
+      </p>
+      <br />
+      <p>
+        I use FL Studio 12.4.2 to make my music, which you can check out in the
+        <a class="navlinks" href="./projects.html">projects tab</a>! I've been
+        doing this for around 4 years, and although I'd like to say that I know
+        a lot about of music production, again, there's still so much that I
+        have to learn, but at least I've come to a point where I'm producing
+        work that I'm proud of.
+      </p>
+      <br />
+      <p>
+        &copy; 2020 Benjamin Huang. All rights reserved.
+      </p>
+    </div>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+      var nav = document.getElementById("nav");
+      var sticky = nav.offsetTop;
+      position;
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>

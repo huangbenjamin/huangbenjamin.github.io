@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background: #bbbbbb;
+}
+
+#nav {
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: #333333;
+  justify-content: center;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+
+#activepage {
+  color: rgb(126, 156, 255);
+  font-weight: bold;
+}
+
+.navitems {
+  display: inline;
+  padding: 1%;
+  right: 20px;
+  box-sizing: border-box;
+}
+
+.navlinks {
+  color: rgb(160, 27, 236);
+  text-decoration: none;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.navlinks:hover {
+  color: rgb(213, 149, 255);
+}
+
+.navlinks:active {
+  color: rgb(236, 208, 255);
+}
+
+.headeritems {
+  display: inline;
+}
+
+#name {
+  left: 20px;
+  position: absolute;
+  color: white;
+}
+
+.colorbar {
+  height: 10px;
+  background: linear-gradient(to right, rgb(78, 115, 236), rgb(160, 27, 236));
+}
+
+.main {
+  margin: 20px;
+  border-radius: 15px;
+  border-color: #555555;
+  border-style: solid;
+  border-width: 2px;
+  padding: 20px;
+  background: white;
+  font-size: 0.9rem;
+}
+
+#catalog {
+  margin-left: 20px;
+  line-height: 150%;
+}
+
+/* below: how to make the navbar stay at the top */
+
+.content {
+  padding: 0px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}

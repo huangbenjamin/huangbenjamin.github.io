@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./img/bh.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div id="nav">
+      <ul class="navbar">
+        <div class="headeritems" id="name">
+          Ben Huang
+        </div>
+        <ul class="headeritems">
+          <li class="navitems">
+            <a class="navlinks" href="./index.html">Home</a>
+          </li>
+          <li class="navitems">
+            <a class="navlinks" href="./about.html">About Me</a>
+          </li>
+          <li class="navitems">
+            <a class="navlinks" href="./projects.html"> Projects</a>
+          </li>
+          <li class="navitems" id="activepage">
+            Contact
+          </li>
+        </ul>
+      </ul>
+      <div class="colorbar"></div>
+    </div>
+    <div class="main">
+      <h2>
+        Contact
+      </h2>
+      <br />
+      <p>
+        In the (rare) event you need to contact me, here are some ways you can
+        get a hold of me!
+      </p>
+      <br />
+      <p>
+        Email:
+        <a class="navlinks" target="_new" href="mailto: ben.huang@uwaterloo.ca"
+          >ben.huang@uwaterloo.ca</a
+        >
+      </p>
+      <p>
+        LinkedIn:
+        <a
+          class="navlinks"
+          target="_new"
+          href="https://www.linkedin.com/in/b-z-huang/"
+          >https://www.linkedin.com/in/b-z-huang/</a
+        >
+      </p>
+      <br />
+      <p>
+        &copy; 2020 Benjamin Huang. All rights reserved.
+      </p>
+    </div>
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+      var nav = document.getElementById("nav");
+      var sticky = nav.offsetTop;
+      position;
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
