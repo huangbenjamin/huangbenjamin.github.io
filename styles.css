@@ -6,11 +6,11 @@
 }
 
 body {
-  background: #bbbbbb;
+  background: #555555;
 }
 
 .navbar {
-  background-color: #333333;
+  background: linear-gradient(#000000, #333333);
   justify-content: center;
   padding: 20px;
   overflow: hidden;
@@ -62,7 +62,7 @@ body {
 .main {
   margin: 20px;
   border-radius: 15px;
-  border-color: #555555;
+  border-color: #111111;
   border-style: solid;
   border-width: 2px;
   padding: 20px;
@@ -77,4 +77,25 @@ body {
 
 #spotifyembed {
   border-radius: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgb(234, 203, 255);
 }
