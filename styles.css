@@ -60,7 +60,7 @@ body {
 }
 
 .main {
-  margin: 20px;
+  margin: 30px 10%;
   border-radius: 15px;
   border-color: #111111;
   border-style: solid;
@@ -72,6 +72,10 @@ body {
 
 #catalog {
   margin-left: 20px;
+  line-height: 150%;
+}
+
+.contactlist {
   line-height: 150%;
 }
 
